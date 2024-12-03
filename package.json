@@ -12,5 +12,12 @@
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "16.9.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "react-dom@16>react": "18"
+      }
+    }
   }
 }
